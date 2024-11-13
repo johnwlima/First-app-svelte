@@ -2,14 +2,15 @@
     import Menu from '$lib/components/Organisms/Menu.svelte';
     import Hero from '$lib/components/Organisms/Hero.svelte';
     import Footer from '$lib/components/Molecules/Footer.svelte';
+    import SponsoredBy from '$lib/components/Molecules/SponsoredBy.svelte';
 </script>
 
 <Menu/>
 <Hero/>
+<SponsoredBy/>
 <Footer/>
 
 <style>
-
     :global(*) {
         padding: 0;
         margin: 0;
@@ -54,6 +55,7 @@
     :global(body) {
         font-family: sans-serif;
         background-color: var(--bg-a);
+        accent-color: var(--theme-a);
     }
 
     :global(h1, h2) {

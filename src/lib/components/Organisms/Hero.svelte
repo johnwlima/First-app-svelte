@@ -54,4 +54,9 @@
         font-weight: 400;
         letter-spacing: 1.25px;
     }
+
+    iframe {
+        height: 500px;
+        position: absolute;
+    }
 </style>
