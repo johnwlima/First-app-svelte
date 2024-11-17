@@ -1,13 +1,13 @@
 <script> 
     let {
-        href = "https://www.google.com.br/",
         Hierarchy = "Primary",
-        Text = "Button"
+        Text = "Button",
+        href = "#"
     } = $props();
     
 </script>
 
-<a class={Hierarchy} {href} target="_blank">{Text}</a>
+<a {href} class={Hierarchy}>{Text}</a>
 
 <style>
     .Primary {

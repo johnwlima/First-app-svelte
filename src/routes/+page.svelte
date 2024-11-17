@@ -3,10 +3,13 @@
     import Hero from '$lib/components/Organisms/Hero.svelte';
     import Footer from '$lib/components/Molecules/Footer.svelte';
     import SponsoredBy from '$lib/components/Molecules/SponsoredBy.svelte';
+    import SvelteSocietySection from '$lib/components/Molecules/SvelteSocietySection.svelte';
+    
 </script>
 
 <Menu/>
 <Hero/>
+<SvelteSocietySection/>
 <SponsoredBy/>
 <Footer/>
 
@@ -61,5 +64,5 @@
     :global(h1, h2) {
         text-decoration: none;
     }
-    
+
 </style>

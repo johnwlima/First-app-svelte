@@ -1,6 +1,5 @@
 <script>
     import Button from '$lib/components/Atoms/Button.svelte';
-    import logoContainer from '$lib/components/Molecules/LogoContainer.svelte';
     import MenuIcon from '$lib/components/Atoms/MenuIcon.svelte';
 	import LogoContainer from '$lib/components/Molecules/LogoContainer.svelte';
 </script>
@@ -8,7 +7,6 @@
 <header>
     <div class="header-container">
         <div class="header-left-container">
-            <!-- logo container -->
             <LogoContainer/>
 
             <Button 
