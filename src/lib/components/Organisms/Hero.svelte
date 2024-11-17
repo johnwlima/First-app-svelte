@@ -78,7 +78,7 @@
         justify-content: center;
         overflow:visible;
         width: 500px;
-        height: 80vh;
+        height: 600px;
         align-self: center;
         justify-self: center;
     }
