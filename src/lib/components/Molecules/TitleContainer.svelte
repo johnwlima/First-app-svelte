@@ -12,7 +12,7 @@
 <style>
     
     .title-container {
-        width: 100%;
+        width: fit-content;
         height: fit-content;
         padding-left: 1rem;
         border-left: 3px solid var(--theme-a)
