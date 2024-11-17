@@ -76,9 +76,9 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
+        overflow:visible;
         width: 500px;
-        height: 600px;
+        height: 80vh;
         align-self: center;
         justify-self: center;
     }
@@ -87,5 +87,6 @@
         display: flex;
         flex-wrap: wrap;
         gap: 4rem;
+        width: 100%;
     }
 </style>
